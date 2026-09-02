@@ -14,6 +14,7 @@
     fd
     uv
     atuin
+    eza
   ];
 
   programs.nushell = {
