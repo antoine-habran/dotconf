@@ -20,6 +20,9 @@
   programs.nushell = {
     enable = true;
 
+    configFile.source = ./dotconf/nushell/config.nu;
+    envFile.source = ./dotconf/nushell/env.nu;
+
     plugins = with pkgs.nushellPlugins; [
       gstat
     ];
