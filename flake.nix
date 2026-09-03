@@ -10,6 +10,7 @@
         extraSpecialArgs = {
           username = "ahabran";
           homeDirectory = "/home/ahabran";
+	  isMac = false;
         };
 
         modules = [ ./home.nix ];
@@ -23,6 +24,7 @@
         extraSpecialArgs = {
           username = "antoinehabran";
           homeDirectory = "/Users/antoinehabran";
+	  isMac = false;
         };
 
         modules = [ ./home.nix ];
